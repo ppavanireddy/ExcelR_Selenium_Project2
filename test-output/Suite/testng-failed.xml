@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="AddtoCartTest(failed)">
+    <classes>
+      <class name="Tests.AddtoCart_Test">
+        <methods>
+          <include name="bt"/>
+          <include name="TC_0012"/>
+        </methods>
+      </class> <!-- Tests.AddtoCart_Test -->
+    </classes>
+  </test> <!-- AddtoCartTest(failed) -->
+  <test thread-count="5" name="CategoryTest(failed)">
+    <classes>
+      <class name="Tests.Category_Test">
+        <methods>
+          <include name="TC_0019"/>
+          <include name="bt"/>
+          <include name="TC_0018"/>
+        </methods>
+      </class> <!-- Tests.Category_Test -->
+    </classes>
+  </test> <!-- CategoryTest(failed) -->
+  <test thread-count="5" name="ContactUsTest(failed)">
+    <classes>
+      <class name="Tests.ContactUs_Test">
+        <methods>
+          <include name="TC_006"/>
+          <include name="bt"/>
+        </methods>
+      </class> <!-- Tests.ContactUs_Test -->
+    </classes>
+  </test> <!-- ContactUsTest(failed) -->
+  <test thread-count="5" name="LoginUserTest(failed)">
+    <classes>
+      <class name="Tests.Loginuser_Test">
+        <methods>
+          <include name="bt"/>
+          <include name="TC_002"/>
+          <include name="TC_003"/>
+          <include name="TC_004"/>
+        </methods>
+      </class> <!-- Tests.Loginuser_Test -->
+    </classes>
+  </test> <!-- LoginUserTest(failed) -->
+  <test thread-count="5" name="PlaceOrderTest(failed)">
+    <classes>
+      <class name="Tests.PlaceOrder_Test">
+        <methods>
+          <include name="TC_0016"/>
+          <include name="TC_0015"/>
+          <include name="TC_0023"/>
+          <include name="TC_0014"/>
+          <include name="TC_0024"/>
+          <include name="bt"/>
+        </methods>
+      </class> <!-- Tests.PlaceOrder_Test -->
+    </classes>
+  </test> <!-- PlaceOrderTest(failed) -->
+  <test thread-count="5" name="ProductsPageTest(failed)">
+    <classes>
+      <class name="Tests.ProductsPage_Test">
+        <methods>
+          <include name="TC_008"/>
+          <include name="TC_0020"/>
+          <include name="TC_0021"/>
+          <include name="TC_0013"/>
+          <include name="bt"/>
+          <include name="TC_0022"/>
+          <include name="TC_009"/>
+        </methods>
+      </class> <!-- Tests.ProductsPage_Test -->
+    </classes>
+  </test> <!-- ProductsPageTest(failed) -->
+  <test thread-count="5" name="RegisterUserTest(failed)">
+    <classes>
+      <class name="Tests.Register_User_Test">
+        <methods>
+          <include name="bt"/>
+          <include name="TC_001"/>
+          <include name="TC_005"/>
+        </methods>
+      </class> <!-- Tests.Register_User_Test -->
+    </classes>
+  </test> <!-- RegisterUserTest(failed) -->
+  <test thread-count="5" name="RemoveProductTest(failed)">
+    <classes>
+      <class name="Tests.RemoveProduct_Test">
+        <methods>
+          <include name="TC_0017"/>
+          <include name="bt"/>
+        </methods>
+      </class> <!-- Tests.RemoveProduct_Test -->
+    </classes>
+  </test> <!-- RemoveProductTest(failed) -->
+  <test thread-count="5" name="SubscriptionTest(failed)">
+    <classes>
+      <class name="Tests.Subscription_Test">
+        <methods>
+          <include name="TC_0026"/>
+          <include name="TC_0025"/>
+          <include name="bt"/>
+          <include name="TC_0011"/>
+          <include name="TC_0010"/>
+        </methods>
+      </class> <!-- Tests.Subscription_Test -->
+    </classes>
+  </test> <!-- SubscriptionTest(failed) -->
+  <test thread-count="5" name="TestCaseTest(failed)">
+    <classes>
+      <class name="Tests.TestCase_Test">
+        <methods>
+          <include name="TC_007"/>
+          <include name="bt"/>
+        </methods>
+      </class> <!-- Tests.TestCase_Test -->
+    </classes>
+  </test> <!-- TestCaseTest(failed) -->
+</suite> <!-- Failed suite [Suite] -->
